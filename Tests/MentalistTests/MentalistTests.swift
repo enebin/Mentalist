@@ -22,4 +22,19 @@ final class MentalistTests: XCTestCase {
             XCTAssertEqual(result.dominantEmotion, emotion)
         }
     }
+    
+    func testAnalyzeTime() throws {
+        let image = try XCTUnwrap(UIImage(named: "happy", in: .module, with: nil))
+        let cgImage = try XCTUnwrap(image.cgImage)
+        
+        measure {
+            (1...100).forEach { _ in
+                do {
+                    _ = try Mentalist.analyze(cgImage: cgImage)
+                } catch {
+                    return
+                }
+            }
+        }
+    }
 }
