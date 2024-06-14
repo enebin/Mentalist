@@ -21,7 +21,7 @@ print("The emotion on your face is... '\(analysis.dominantEmotion)!'")
 
 ### 1. Seven Emotion Categories
 
-Mentalist classifies the emotions on faces in a photo into **one of seven categories**. Internally, it utilizes a CoreML model based on FER2013 to analyze emotions displayed in a picture into seven categories: 'happy', 'angry', 'disgust', 'fear', 'happy', 'sad', 'surprise', and 'neutral'.
+Mentalist classifies the emotions on faces in a photo into **one of seven categories**. Internally, it utilizes a CoreML model based on FER2013 to analyze emotions displayed in a picture into seven categories: 'happy', 'angry', 'disgust', 'fear', 'sad', 'surprise', and 'neutral'.
 
 ### 2. Optimized for Mobile Environment
 
