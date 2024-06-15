@@ -1,5 +1,7 @@
 # Mentalist
 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fenebin%2FMentalist%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/enebin/Mentalist)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fenebin%2FMentalist%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/enebin/Mentalist)
 [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 
 ![banner](Assets/banner.jpg)
