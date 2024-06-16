@@ -5,10 +5,9 @@ import Vision
 @available(iOS 15.0, *)
 public struct Mentalist {
     static private let core = MentalistCore()
-    
+
     public static func analyze(cgImage: CGImage) throws -> [EmotionAnalysis] {
-        let mlModel = try VNCoreMLModel(for: FacialExpressionModel().model)
-        return try core.analyze(cgImage: cgImage, model: mlModel)
+        return try core.analyze(cgImage: cgImage)
     }
     
     public static func analyze(uiImage: UIImage) throws -> [EmotionAnalysis] {
