@@ -8,7 +8,7 @@
 import Foundation
 
 public struct EmotionAnalysis {
-    var region: CGRect
-    var emotion: [Emotion: Double]
-    var dominantEmotion: Emotion
+    public var region: CGRect
+    public var emotion: [Emotion: Double]
+    public var dominantEmotion: Emotion
 }
